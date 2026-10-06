@@ -1,0 +1,56 @@
+.container {
+    display: grid;
+    border: 2px solid #2e3440;
+    grid-template-areas: 
+    "head head head head head"
+    "nav nav nav nav nav"
+    "ls main main main rs"
+    "foot foot foot foot foot";
+    gap: 10px;
+    grid-template-rows: 100px 80px 500px 100px;
+    background-color: #2e3440;
+    padding: 10px;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    font-weight: 700;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    color: #eceff4;
+    border-radius: 8px;
+    letter-spacing: 1px;
+}
+
+.header {
+    background-color: #5e81ac; /* Deep Slate Blue */
+    grid-area: head;
+}
+
+.navbar {
+    background-color: #88c0d0; /* Soft Cyan */
+    color: #2e3440; /* Dark contrast text */
+    grid-area: nav;
+}
+
+.lSide {
+    background-color: #3b4252; /* Dark Charcoal */
+    grid-area: ls;
+}
+
+.main {
+    background-color: #434c5e; /* Medium Charcoal */
+    grid-area: main;
+}
+
+.rSide {
+    background-color: #3b4252; /* Dark Charcoal */
+    grid-area: rs;
+}
+
+.footer {
+    background-color: #5e81ac; /* Deep Slate Blue */
+    grid-area: foot;
+}

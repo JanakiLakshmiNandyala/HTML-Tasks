@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Reservation Page</title>
+
+<style>
+body{
+    margin:0;
+    background-color:#FFF8E7;
+}
+
+.heading{
+    text-align:center;
+    background-color:chocolate;
+    color:white;
+    padding:15px;
+}
+.menu {
+        text-align: center;
+        background-color: #3b1f1f;
+        padding: 10px;
+      }
+
+a{
+    color:yellow;
+    text-decoration:none;
+}
+
+.content-section{
+    background-image:url("https://plus.unsplash.com/premium_photo-1661883237884-263e8de8869b?q=80&w=1189&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size:cover;
+    background-repeat:no-repeat;
+    padding:40px;
+}
+
+#h11,#h12{
+    text-align:center;
+    color:gold;
+}
+
+#fill{
+    text-align:center;
+    color:white;
+}
+
+table{
+    width:80%;
+    background-color:white;
+    border-collapse:collapse;
+}
+
+th,td{
+    border:1px solid black;
+    padding:10px;
+}
+
+#h1,#r1{
+    background-color:chocolate;
+    color:white;
+}
+
+#h21{
+    color:red;
+}
+
+.form{
+    text-align:center;
+    background-color:#f0d28c;
+    padding:20px;
+}
+
+.footer{
+    text-align:center;
+    padding:20px;
+}
+
+#input1,#input2{
+    background-color:chocolate;
+    color:white;
+    padding:8px 15px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="heading">
+    <h1>Brew & Bite 60 Cafe ☕</h1>
+    <p>Where Coffee Meets Conversations</p>
+    </div>
+<div class="menu">
+    <a href="index.html">Home</a>&nbsp;
+    <a href="menu.html">Menu</a>
+     <a href="reservation.html">Reservations</a>&nbsp;
+    <a href="about.html">About</a>&nbsp;
+
+    
+</div>
+
+<div class="content-section">
+
+    <h1 id="h11">Upcoming Events 🎉</h1>
+
+    <table align="center">
+        <tr>
+            <th colspan="4" id="h1">Upcoming Events</th>
+        </tr>
+
+        <tr id="r1">
+            <th>Category</th>
+            <th>Event</th>
+            <th>Date</th>
+            <th>Time</th>
+        </tr>
+
+        <tr>
+            <td rowspan="2">Music</td>
+            <td>Live Music Night</td>
+            <td>10 July 2026</td>
+            <td>7 PM</td>
+        </tr>
+
+        <tr>
+            <td>Acoustic Evening</td>
+            <td>18 July 2026</td>
+            <td>8 PM</td>
+        </tr>
+
+        <tr>
+            <td rowspan="2">Workshops</td>
+            <td>Coffee Workshop</td>
+            <td>15 July 2026</td>
+            <td>5 PM</td>
+        </tr>
+
+        <tr>
+            <td>Dessert Festival</td>
+            <td>20 July 2026</td>
+            <td>6 PM</td>
+        </tr>
+    </table>
+
+    <br><br>
+
+    <h1 id="h12">Reserve Your Table 🍽</h1>
+
+    <p id="fill">
+        Fill in the details and reserve your favourite spot.
+    </p>
+
+</div>
+
+<div class="form">
+
+    <h2 id="h21">Reservation Form</h2>
+
+    <form>
+
+        <label><b>Full Name</b></label><br>
+        <input type="text" placeholder="Enter your name"><br><br>
+
+        <label><b>Email</b></label><br>
+        <input type="email" placeholder="Enter email"><br><br>
+
+        <label><b>Phone Number</b></label><br>
+        <input type="number"><br><br>
+
+        <label><b>Reservation Date</b></label><br>
+        <input type="date"><br><br>
+
+        <label><b>Reservation Time</b></label><br>
+        <input type="time"><br><br>
+
+        <input type="submit" value="Reserve Now" id="input1">
+        <input type="reset" value="Reset" id="input2">
+
+    </form>
+
+</div>
+
+<div class="footer">
+    <h2>Contact Us 📌</h2>
+    <p>Email: hello@brewbite.com</p>
+    <p>Phone: +91 9848972345</p>
+    <p>Address: ameerpet, Hyderabad</p>
+</div>
+
+</body>
+</html>
